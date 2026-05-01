@@ -1,7 +1,7 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "RondSync Docs",
+  "name": "RondoSync Docs",
   "colors": {
     "primary": "#00D5FF",
     "light": "#38E8FF",
