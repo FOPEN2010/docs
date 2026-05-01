@@ -8,11 +8,12 @@
     "dark": "#020617"
   },
   "favicon": "/favicon.svg",
-  "appearance": "dark",
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+
+  "appearance": {
+    "default": "dark",
+    "strict": false
   },
+
   "navigation": {
     "tabs": [
       {
@@ -64,6 +65,12 @@
       }
     ]
   },
+
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
+
   "navbar": {
     "links": [],
     "primary": {
@@ -72,6 +79,7 @@
       "href": "https://rondsync.com"
     }
   },
+
   "contextual": {
     "options": [
       "copy",
@@ -81,6 +89,7 @@
       "perplexity"
     ]
   },
+
   "footer": {
     "socials": {}
   }
