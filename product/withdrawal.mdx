@@ -1,3 +1,134 @@
-# Coming Soon
+# Withdrawal
 
-This page is being prepared.
+RondSync allows users to withdraw their available balance
+in a structured and secure manner.
+
+---
+
+## Overview
+
+Users can withdraw their available USD balance,
+which is converted and transferred to their wallet.
+
+- Withdrawals are processed upon request  
+- Funds are transferred to the connected wallet  
+- Processing may require approval and validation  
+
+---
+
+## Withdrawal Flow
+
+```mermaid
+flowchart LR
+    A[User Request] --> B[Withdrawal Queue]
+    B --> C[Validation & Approval]
+    C --> D[Transaction Execution]
+    D --> E[User Wallet]
+```
+
+---
+
+## Withdrawal Process
+
+### Step 1 — Request
+
+Users initiate a withdrawal request from their dashboard.
+
+- Specify withdrawal amount  
+- Confirm wallet destination  
+- Submit request  
+
+---
+
+### Step 2 — Validation
+
+The system performs validation checks.
+
+- Balance availability  
+- Security checks  
+- Policy enforcement  
+
+---
+
+### Step 3 — Approval
+
+Withdrawals may require approval before execution.
+
+- Automated or manual approval  
+- Risk-based review  
+- Compliance checks  
+
+---
+
+### Step 4 — Execution
+
+Approved withdrawals are executed on-chain.
+
+- Funds are transferred to the user's wallet  
+- Transaction is broadcast and confirmed  
+- Completion depends on network conditions  
+
+---
+
+## Processing Time
+
+Withdrawal processing time may vary depending on:
+
+- Network congestion  
+- Internal validation processes  
+- Security or compliance checks  
+
+Users should expect delays during peak conditions.
+
+---
+
+## Withdrawal Limits
+
+Certain limits may apply:
+
+- Minimum withdrawal amount  
+- Maximum withdrawal thresholds  
+- Daily or periodic limits  
+
+---
+
+## Fees
+
+Withdrawals may incur fees, including:
+
+- Network transaction fees  
+- Operational fees  
+
+Fee structures may change over time.
+
+---
+
+## Important Considerations
+
+- Only available USD balance can be withdrawn  
+- Pending or locked funds cannot be accessed  
+- Incorrect wallet addresses may result in permanent loss  
+- Transactions are irreversible once executed  
+
+---
+
+## Security Model
+
+RondSync applies multiple layers of security:
+
+- Policy-based transaction control  
+- Wallet infrastructure protection  
+- Monitoring and anomaly detection  
+
+---
+
+## Summary
+
+Withdrawals in RondSync are designed to be:
+
+- Secure  
+- Transparent  
+- Policy-controlled  
+
+Users retain control over their funds while the system ensures
+safe and structured execution.

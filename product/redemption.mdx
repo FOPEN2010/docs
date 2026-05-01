@@ -1,3 +1,146 @@
-# Coming Soon
+# Redemption
 
-This page is being prepared.
+Redemption allows users to exit their Vault positions
+and convert their allocated capital into an available balance.
+
+---
+
+## Overview
+
+Users can redeem their Vault positions based on each Vault’s conditions.
+
+- Redemption converts Vault units into USD balance  
+- Conditions vary depending on the Vault  
+- Early redemption may include penalties  
+
+---
+
+## Redemption Flow
+
+```mermaid
+flowchart LR
+    A[User Request] --> B[Redemption Validation]
+    B --> C[Penalty Calculation]
+    C --> D[Settlement Process]
+    D --> E[USD Balance]
+```
+
+---
+
+## Redemption Process
+
+### Step 1 — Request
+
+Users initiate redemption from their portfolio.
+
+- Select Vault position  
+- Specify amount (partial or full)  
+- Submit request  
+
+---
+
+### Step 2 — Validation
+
+The system verifies eligibility.
+
+- Lock-up conditions  
+- Vault-specific rules  
+- Current position status  
+
+---
+
+### Step 3 — Penalty Calculation
+
+If applicable, penalties are calculated.
+
+- Early redemption fees  
+- Strategy-related adjustments  
+- Liquidity-related costs  
+
+---
+
+### Step 4 — Settlement
+
+The final amount is settled and allocated.
+
+- Net value is calculated  
+- Units are burned or adjusted  
+- Resulting amount is added to USD balance  
+
+---
+
+## Redemption Types
+
+### Full Redemption
+
+- Exit entire Vault position  
+- All units are converted  
+
+---
+
+### Partial Redemption
+
+- Exit a portion of the position  
+- Remaining units continue to participate  
+
+---
+
+## Lock-Up Conditions
+
+Some Vaults may enforce lock-up periods.
+
+- Funds cannot be redeemed during lock-up  
+- Early exit may be restricted or penalized  
+
+---
+
+## Penalties
+
+Penalties may apply under certain conditions.
+
+- Early exit fees  
+- Strategy unwind costs  
+- Liquidity impact adjustments  
+
+Penalty structures vary by Vault.
+
+---
+
+## Settlement Timing
+
+Redemption may not be instantaneous.
+
+- Depends on Vault structure  
+- Strategy execution timing  
+- Liquidity availability  
+
+---
+
+## Important Considerations
+
+- Redemption conditions vary per Vault  
+- Early exit may reduce returns  
+- Final value depends on market conditions  
+- Partial redemption affects remaining exposure  
+
+---
+
+## Relationship to Withdrawal
+
+Redemption and withdrawal are separate processes:
+
+- Redemption → converts Vault position into USD balance  
+- Withdrawal → transfers USD balance to user wallet  
+
+---
+
+## Summary
+
+Redemption enables users to:
+
+- Exit Vault positions  
+- Manage capital allocation  
+- Control exposure to strategies  
+
+All redemptions are subject to Vault-specific rules
+and market conditions.
