@@ -47,17 +47,97 @@ Yield is distributed through a daily settlement process.
 
 - Performance is calculated periodically  
 - Profits are allocated to each Vault  
-- Users receive yield based on their unit share  
+- Users receive yield based on their share share  
 
 ---
 
-## Unit-Based Allocation
+## Share-Based Allocation
 
-Each user holds Vault units that represent their share.
+Each user holds Vault shares that represent their share.
 
 - Yield is distributed proportionally  
-- Higher unit holdings result in higher allocation  
-- Unit accounting ensures fair distribution  
+- Higher share holdings result in higher allocation  
+- Share accounting ensures fair distribution  
+
+---
+
+## Example: Share-Based Allocation
+
+RondSync uses a share-based accounting system.
+
+### Core Principle
+
+- Vault performance is aggregated  
+- Total profit is distributed across all shares  
+- Each user receives yield proportional to their share ownership  
+
+---
+
+### Example Scenario
+
+**Initial state:**
+
+| Item | Value |
+|---|---|
+| Total Vault Assets | 100,000 USDT |
+| Total Shares Issued | 100,000 shares |
+| Share Price | 1.0000 USDT |
+
+**User deposit:**
+
+- User deposits 1,000 USDT  
+- Receives 1,000 shares  
+
+---
+
+### Profit Generation
+
+Assume the Vault generates:
+
+- Total Profit: 10,000 USDT  
+
+**New state:**
+
+| Item | Value |
+|---|---|
+| Total Assets | 110,000 USDT |
+| Total Shares Issued | 100,000 shares |
+| New Share Price | 1.1000 USDT |
+
+---
+
+### User Outcome
+
+User holds:
+
+- 1,000 shares  
+
+Value:
+
+- 1,000 shares ÁE1.1000 USDT = 1,100 USDT  
+
+👉 **Profit = 100 USDT**
+
+---
+
+### Key Understanding
+
+<Info>
+- Profit is NOT distributed as fixed payouts  
+- It is reflected through **share price increase**  
+- Each share represents a proportional claim on total assets  
+</Info>
+
+---
+
+### Important Note
+
+Share price may:
+
+- Increase (profit)  
+- Decrease (loss)  
+
+Returns depend entirely on Vault performance.
 
 ---
 
@@ -66,7 +146,7 @@ Each user holds Vault units that represent their share.
 Distributed yield is reflected in the user’s USD balance.
 
 - Accumulates over time  
-- Includes profit, rewards, and settlement amounts  
+- Includes profit, profits, and settlement amounts  
 - Available for withdrawal subject to conditions  
 
 ---
@@ -96,7 +176,7 @@ Yield in RondSync is generated through:
 
 - Strategy-driven execution  
 - Market-dependent opportunities  
-- Proportional distribution via Vault units  
+- Proportional distribution via Vault shares  
 
 Users participate in yield generation based on their allocated capital
 and Vault selection.

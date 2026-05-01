@@ -8,7 +8,7 @@ icon: "rotate-left"
 
 Users can redeem their Vault positions based on each Vault’s conditions.
 
-- Redemption converts Vault units into USD balance  
+- Redemption converts Vault shares into USD balance  
 - Conditions vary depending on the Vault  
 - Early redemption may include penalties  
 
@@ -28,7 +28,7 @@ flowchart LR
 
 ## Redemption Process
 
-### Step 1 — Request
+### Step 1  ERequest
 
 Users initiate redemption from their portfolio.
 
@@ -38,7 +38,7 @@ Users initiate redemption from their portfolio.
 
 ---
 
-### Step 2 — Validation
+### Step 2  EValidation
 
 The system verifies eligibility.
 
@@ -48,7 +48,7 @@ The system verifies eligibility.
 
 ---
 
-### Step 3 — Penalty Calculation
+### Step 3  EPenalty Calculation
 
 If applicable, penalties are calculated.
 
@@ -58,12 +58,12 @@ If applicable, penalties are calculated.
 
 ---
 
-### Step 4 — Settlement
+### Step 4  ESettlement
 
 The final amount is settled and allocated.
 
 - Net value is calculated  
-- Units are burned or adjusted  
+- Shares are burned or adjusted  
 - Resulting amount is added to USD balance  
 
 ---
@@ -73,14 +73,14 @@ The final amount is settled and allocated.
 ### Full Redemption
 
 - Exit entire Vault position  
-- All units are converted  
+- All shares are converted  
 
 ---
 
 ### Partial Redemption
 
 - Exit a portion of the position  
-- Remaining units continue to participate  
+- Remaining shares continue to participate  
 
 ---
 
@@ -128,8 +128,8 @@ Redemption may not be instantaneous.
 
 Redemption and withdrawal are separate processes:
 
-- Redemption → converts Vault position into USD balance  
-- Withdrawal → transfers USD balance to user wallet  
+- Redemption ↁEconverts Vault position into USD balance  
+- Withdrawal ↁEtransfers USD balance to user wallet  
 
 ---
 

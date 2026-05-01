@@ -1,6 +1,6 @@
 ---
 title: "Vaults"
-description: "Vaults are the core investment units within RondSync, providing structured access to yield strategies through isolated capital allocation."
+description: "Vaults are the core investment shares within RondSync, providing structured access to yield strategies through isolated capital allocation."
 icon: "vault"
 ---
 
@@ -37,13 +37,13 @@ Vaults do not share performance.
 
 ---
 
-### Unit-Based System
+### Share-Based System
 
-Vaults use a unit-based accounting model.
+Vaults use a share-based accounting model.
 
-- Deposits are converted into Vault units  
-- Each unit represents a share of the Vault  
-- Returns are reflected through unit value changes or distributions  
+- Deposits are converted into Vault shares  
+- Each share represents a share of the Vault  
+- Returns are reflected through share price changes or distributions  
 
 ---
 
@@ -117,9 +117,77 @@ flowchart LR
     D --> E[User Balance]
 ```
 
+## Example Vault (Illustrative)
+
+<Note>
+  The following is a simplified example for illustration purposes only.
+  Actual Vault parameters vary and are subject to change.
+</Note>
+
+### Sample Parameters
+
+| Parameter | Value |
+|---|---|
+| Asset | USDT |
+| Minimum Deposit | 500 USDT |
+| Lock-up Period | Flexible |
+| Redemption | Allowed anytime (conditions may apply) |
+| Performance Fee | 20% |
+| Execution / Operational Fees | Included in strategy performance |
+
+---
+
+### Share-Based Structure
+
+Vaults operate on a share-based accounting model.
+
+- Users receive shares when depositing
+- The value of each share fluctuates over time
+- Total Vault performance is reflected in share price
+
+---
+
+### Example Calculation
+
+**Initial State**
+
+| Item | Value |
+|---|---|
+| Total Vault Assets | 100,000 USDT |
+| Total Shares Issued | 100,000 shares |
+| Share Price | 1.0000 USDT |
+
+**User Deposit**
+
+| Item | Value |
+|---|---|
+| Deposit Amount | 1,000 USDT |
+| Shares Received | 1,000 shares |
+
+**After Yield Generation** (example: share price rises to 1.05 USDT)
+
+| Item | Value |
+|---|---|
+| Shares Held | 1,000 shares |
+| Share Price | 1.0500 USDT |
+| Portfolio Value | 1,050 USDT |
+| Unrealized Gain | +50 USDT |
+
+---
+
+### Key Insight
+
+<Info>
+  - Share price changes over time based on Vault performance
+  - Users do not earn a fixed yield
+  - Returns are based on **share price appreciation**
+  - Negative performance may also occur, reducing share price
+</Info>
+
 ---
 
 ## Important Considerations
+
 
 - Each Vault carries its own risk  
 - Past performance does not guarantee future results  
@@ -137,3 +205,4 @@ Vaults provide structured access to yield strategies through:
 - Transparent performance tracking  
 
 Users are encouraged to understand each Vault before investing.
+
