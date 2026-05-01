@@ -3,11 +3,16 @@
   "theme": "mint",
   "name": "RondSync Docs",
   "colors": {
-    "primary": "#111827",
-    "light": "#2563EB",
-    "dark": "#0F172A"
+    "primary": "#00D5FF",
+    "light": "#38E8FF",
+    "dark": "#020617"
   },
   "favicon": "/favicon.svg",
+  "appearance": "dark",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
@@ -58,10 +63,6 @@
         ]
       }
     ]
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
   },
   "navbar": {
     "links": [],
