@@ -27,7 +27,13 @@ flowchart LR
     C --> D[Policy Engine]
     D --> E[Execution Layer]
     E --> F[Monitoring System]
+    F -.->|Alerts & Controls| D
+    D --> C
+    C --> A
 ```
+
+All capital movement — both inbound and outbound — passes through the Policy Engine.
+The Monitoring System operates continuously and feeds control signals back into the Policy Engine.
 
 ---
 
