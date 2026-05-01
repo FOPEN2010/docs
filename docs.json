@@ -26,6 +26,7 @@
             "pages": [
               "product/vaults",
               "product/yield",
+              "product/fund-flow",
               "product/withdrawal",
               "product/redemption"
             ]
@@ -40,9 +41,12 @@
           {
             "group": "Legal",
             "pages": [
+              "legal/index",
               "legal/terms",
               "legal/privacy",
-              "legal/cookie"
+              "legal/cookie",
+              "legal/kyc-aml",
+              "legal/risk"
             ]
           },
           {
