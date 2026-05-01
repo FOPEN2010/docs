@@ -1,3 +1,9 @@
+---
+title: "FAQ"
+description: "Frequently asked questions about RondSync, including usage, risks, and system behavior."
+icon: "circle-question"
+---
+
 # FAQ
 
 This section addresses common questions about RondSync,
@@ -7,199 +13,189 @@ including usage, risks, and system behavior.
 
 ## General
 
-### What is RondSync?
+<AccordionGroup>
+  <Accordion title="What is RondSync?">
+    RondSync is a yield infrastructure that allows users to allocate capital
+    into structured strategies through Vaults.
 
-RondSync is a yield infrastructure that allows users to allocate capital
-into structured strategies through Vaults.
+    Users can participate in yield generation and manage their capital
+    through a transparent system.
+  </Accordion>
 
-Users can participate in yield generation and manage their capital
-through a transparent system.
+  <Accordion title="Do I need an account?">
+    No. RondSync uses wallet-based authentication.
 
----
+    - Connect your wallet
+    - No email or password required
+  </Accordion>
 
-### Do I need an account?
+  <Accordion title="What assets are supported?">
+    Currently, RondSync supports stablecoin-based deposits (e.g. USDT).
 
-No. RondSync uses wallet-based authentication.
-
-- Connect your wallet  
-- No email or password required  
-
----
-
-### What assets are supported?
-
-Currently, RondSync supports stablecoin-based deposits (e.g. USDT).
-
-Supported assets may expand over time.
+    Supported assets may expand over time.
+  </Accordion>
+</AccordionGroup>
 
 ---
 
 ## Investment
 
-### Are returns guaranteed?
+<AccordionGroup>
+  <Accordion title="Are returns guaranteed?">
+    No.
 
-No.
+    - Returns are not guaranteed
+    - Performance depends on market conditions and strategy execution
 
-- Returns are not guaranteed  
-- Performance depends on market conditions and strategy execution  
+    All investments carry risk.
+  </Accordion>
 
-All investments carry risk.
+  <Accordion title="How is yield generated?">
+    Yield is generated through structured strategies.
 
----
+    - Market opportunities
+    - Liquidity provisioning
+    - Strategy execution
 
-### How is yield generated?
+    Returns vary depending on performance.
+  </Accordion>
 
-Yield is generated through structured strategies.
+  <Accordion title="Can I lose money?">
+    Yes.
 
-- Market opportunities  
-- Liquidity provisioning  
-- Strategy execution  
+    - Negative performance is possible
+    - Market conditions may impact results
+    - Strategy risks apply
 
-Returns vary depending on performance.
+    Users should invest responsibly.
+  </Accordion>
 
----
+  <Accordion title="How do I choose a Vault?">
+    Consider the following:
 
-### Can I lose money?
+    - Risk tolerance
+    - Lock-up conditions
+    - Strategy characteristics
 
-Yes.
-
-- Negative performance is possible  
-- Market conditions may impact results  
-- Strategy risks apply  
-
-Users should invest responsibly.
-
----
-
-### How do I choose a Vault?
-
-Consider the following:
-
-- Risk tolerance  
-- Lock-up conditions  
-- Strategy characteristics  
-
-Each Vault has different parameters.
+    Each Vault has different parameters.
+  </Accordion>
+</AccordionGroup>
 
 ---
 
 ## Redemption & Withdrawal
 
-### What is the difference between redemption and withdrawal?
+<AccordionGroup>
+  <Accordion title="What is the difference between redemption and withdrawal?">
+    - Redemption → converts Vault position into USD balance
+    - Withdrawal → transfers USD balance to your wallet
 
-- Redemption → converts Vault position into USD balance  
-- Withdrawal → transfers USD balance to your wallet  
+    They are separate processes.
+  </Accordion>
 
-They are separate processes.
+  <Accordion title="Can I withdraw anytime?">
+    You can withdraw available USD balance at any time.
 
----
+    However:
 
-### Can I withdraw anytime?
+    - Processing time may vary
+    - Validation and approval may be required
+  </Accordion>
 
-You can withdraw available USD balance at any time.
+  <Accordion title="Can I redeem anytime?">
+    Depends on the Vault.
 
-However:
+    - Some Vaults have lock-up periods
+    - Early redemption may include penalties
+  </Accordion>
 
-- Processing time may vary  
-- Validation and approval may be required  
+  <Accordion title="How long does withdrawal take?">
+    Processing time depends on:
 
----
+    - Network conditions
+    - Internal validation processes
+    - Security checks
 
-### Can I redeem anytime?
-
-Depends on the Vault.
-
-- Some Vaults have lock-up periods  
-- Early redemption may include penalties  
-
----
-
-### How long does withdrawal take?
-
-Processing time depends on:
-
-- Network conditions  
-- Internal validation processes  
-- Security checks  
-
-Delays may occur during peak periods.
+    Delays may occur during peak periods.
+  </Accordion>
+</AccordionGroup>
 
 ---
 
 ## Fees
 
-### Are there any fees?
+<AccordionGroup>
+  <Accordion title="Are there any fees?">
+    Yes, fees may include:
 
-Yes, fees may include:
+    - Performance fees
+    - Withdrawal-related costs
+    - Network transaction fees
 
-- Performance fees  
-- Withdrawal-related costs  
-- Network transaction fees  
-
-Fee structures may vary by Vault.
+    Fee structures may vary by Vault.
+  </Accordion>
+</AccordionGroup>
 
 ---
 
 ## Security
 
-### Is RondSync safe?
+<AccordionGroup>
+  <Accordion title="Is RondSync safe?">
+    RondSync is designed with multiple security layers:
 
-RondSync is designed with multiple security layers:
+    - Policy-based transaction controls
+    - Secure wallet infrastructure
+    - Monitoring and anomaly detection
 
-- Policy-based transaction controls  
-- Secure wallet infrastructure  
-- Monitoring and anomaly detection  
+    However, no system is completely risk-free.
+  </Accordion>
 
-However, no system is completely risk-free.
+  <Accordion title="Who controls the funds?">
+    Funds are managed through a structured system:
 
----
+    - User deposits are routed via smart contracts
+    - Operational controls govern execution
+    - Policies restrict unauthorized movement
+  </Accordion>
 
-### Who controls the funds?
+  <Accordion title="What happens if something goes wrong?">
+    Risks exist, including:
 
-Funds are managed through a structured system:
+    - Smart contract issues
+    - Counterparty failure
+    - Market-related losses
 
-- User deposits are routed via smart contracts  
-- Operational controls govern execution  
-- Policies restrict unauthorized movement  
-
----
-
-### What happens if something goes wrong?
-
-Risks exist, including:
-
-- Smart contract issues  
-- Counterparty failure  
-- Market-related losses  
-
-Users should understand all risks before participating.
+    Users should understand all risks before participating.
+  </Accordion>
+</AccordionGroup>
 
 ---
 
 ## Technical
 
-### Do I need to sign transactions?
+<AccordionGroup>
+  <Accordion title="Do I need to sign transactions?">
+    Yes.
 
-Yes.
+    - Deposits require wallet signatures
+    - Withdrawals do not require user signatures
+  </Accordion>
 
-- Deposits require wallet signatures  
-- Withdrawals do not require user signatures  
+  <Accordion title="Are transactions on-chain?">
+    Deposits and certain interactions are on-chain.
 
----
-
-### Are transactions on-chain?
-
-Deposits and certain interactions are on-chain.
-
-Other processes may involve off-chain systems
-for execution and settlement.
+    Other processes may involve off-chain systems
+    for execution and settlement.
+  </Accordion>
+</AccordionGroup>
 
 ---
 
 ## Final Notes
 
-- RondSync does not guarantee returns  
-- Users are responsible for their decisions  
-- Always verify information before interacting  
+- RondSync does not guarantee returns
+- Users are responsible for their decisions
+- Always verify information before interacting
 
-For more details, refer to the Risk Disclosure and Security sections.
+For more details, refer to the [Risk Disclosure](/security/risk) and [Security](/security/security) sections.
