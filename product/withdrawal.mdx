@@ -1,25 +1,24 @@
 ---
-title: "Withdrawal"
-description: "RondoSync allows users to withdraw their available balance in a structured and secure manner."
+title: "Withdraw"
+description: "Withdraw sends your available USD balance from the platform to your connected wallet (separate from Redeem, which exits a Vault into balance first)."
 icon: "arrow-up-right-from-square"
 ---
 
 ## Overview
 
-Users can withdraw their available USD balance,
-which is converted and transferred to their wallet.
+You can **withdraw** your available USD balance to your wallet.
 
-- Withdrawals are processed upon request  
-- Funds are transferred to the connected wallet  
+- **Withdraw** requests are processed on request  
+- Funds are sent to the connected wallet  
 - Processing may require approval and validation  
 
 ---
 
-## Withdrawal Flow
+## Withdraw flow
 
 ```mermaid
 flowchart LR
-    A[User Request] --> B[Withdrawal Queue]
+    A[User Request] --> B[Withdraw Queue]
     B --> C[Validation & Approval]
     C --> D[Transaction Execution]
     D --> E[User Wallet]
@@ -27,13 +26,13 @@ flowchart LR
 
 ---
 
-## Withdrawal Process
+## Withdraw process
 
 ### Step 1 — Request
 
-Users initiate a withdrawal request from their dashboard.
+Users start a **withdraw** from their dashboard.
 
-- Specify withdrawal amount  
+- Specify amount  
 - Confirm wallet destination  
 - Submit request  
 
@@ -51,7 +50,7 @@ The system performs validation checks.
 
 ### Step 3 — Approval
 
-Withdrawals may require approval before execution.
+**Withdraw** requests may require approval before execution.
 
 - Automated or manual approval  
 - Risk-based review  
@@ -61,7 +60,7 @@ Withdrawals may require approval before execution.
 
 ### Step 4 — Execution
 
-Approved withdrawals are executed on-chain.
+Approved **withdraw** transfers are executed on-chain.
 
 - Funds are transferred to the user's wallet  
 - Transaction is broadcast and confirmed  
@@ -69,9 +68,9 @@ Approved withdrawals are executed on-chain.
 
 ---
 
-## Processing Time
+## Processing time
 
-Withdrawal processing time may vary depending on:
+How long a **withdraw** takes may vary depending on:
 
 - Network congestion  
 - Internal validation processes  
@@ -81,19 +80,19 @@ Users should expect delays during peak conditions.
 
 ---
 
-## Withdrawal Limits
+## Limits
 
 Certain limits may apply:
 
-- Minimum withdrawal amount  
-- Maximum withdrawal thresholds  
+- Minimum **withdraw** amount  
+- Maximum thresholds  
 - Daily or periodic limits  
 
 ---
 
 ## Fees
 
-Withdrawals may incur fees, including:
+A **withdraw** may incur fees, including:
 
 - Network transaction fees  
 - Operational fees  
@@ -102,16 +101,16 @@ Fee structures may change over time.
 
 ---
 
-## Important Considerations
+## Important considerations
 
-- Only available USD balance can be withdrawn  
+- Only available USD balance can be **withdrawn**  
 - Pending or locked funds cannot be accessed  
 - Incorrect wallet addresses may result in permanent loss  
 - Transactions are irreversible once executed  
 
 ---
 
-## Security Model
+## Security model
 
 RondoSync applies multiple layers of security:
 
@@ -123,7 +122,7 @@ RondoSync applies multiple layers of security:
 
 ## Summary
 
-Withdrawals in RondoSync are designed to be:
+**Withdraw** to your wallet is designed to be:
 
 - Secure  
 - Transparent  

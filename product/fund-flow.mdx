@@ -1,6 +1,6 @@
 ---
 title: "Fund Flow"
-description: "A comprehensive view of how capital flows through RondoSync, from deposit to yield generation, redemption, and withdrawal."
+description: "A comprehensive view of how capital flows through RondoSync, from deposit through profit and loss, redeem, and withdraw to your wallet."
 icon: "route"
 ---
 
@@ -23,10 +23,10 @@ flowchart LR
     C --> D[Policy Engine]
     D --> E[Execution Layer]
     E --> F[Strategy Engine]
-    F --> G[Yield / Loss]
+    F --> G[Profit / Loss]
     G --> H[Settlement System]
     H --> I[USD Balance]
-    I --> J[Withdrawal / Redemption]
+    I --> J[Redeem then Withdraw]
     J --> K[User Wallet]
 ```
 
@@ -34,9 +34,9 @@ flowchart LR
 
 ## Step-by-Step Breakdown
 
-### 1. User Deposit
+### 1. User deposit
 
-Users deposit funds from their wallet into a Vault.
+Users **deposit** funds from their wallet into a Vault (in the app this may appear as **Stake**).
 
 - Executed via smart contracts  
 - Recorded on-chain  
@@ -94,7 +94,7 @@ Execution adapts to market conditions.
 
 ---
 
-### 7. Yield Generation
+### 7. Profit generation
 
 Profit or loss is generated based on:
 
@@ -110,7 +110,7 @@ Results are processed and allocated.
 
 - Periodic settlement cycles  
 - Vault-level performance accounting  
-- Share-based distribution  
+- **Share**-based distribution  
 
 ---
 
@@ -124,18 +124,18 @@ User balances are updated.
 
 ---
 
-### 10. Redemption
+### 10. Redeem
 
-Users convert Vault positions into available balance.
+Users **redeem** Vault **Shares** into available USD balance.
 
 - Subject to Vault conditions  
 - May include penalties or delays  
 
 ---
 
-### 11. Withdrawal
+### 11. Withdraw
 
-Users transfer funds back to their wallet.
+Users **withdraw** from USD balance to their wallet.
 
 - Requires validation and approval  
 - Executed through controlled processes  

@@ -1,6 +1,6 @@
 ---
 title: "How It Works"
-description: "RondoSync routes user capital across structured strategies to generate yield with transparent execution."
+description: "RondoSync routes user capital across structured strategies with transparent execution, deposit, Share-based accounting, profit distribution, redeem, and withdraw."
 icon: "diagram-project"
 ---
 
@@ -12,7 +12,7 @@ flowchart LR
     B --> C[Operational Wallet]
     C --> D[Execution Layer]
     D --> E[Strategy Engine]
-    E --> F[Yield Generation]
+    E --> F[Profit / Loss]
     F --> G[USD Balance]
 ```
 
@@ -30,7 +30,7 @@ Users connect their wallet to access the platform.
 
 ## Step 2 — Deposit into Vault
 
-Users deposit USDT into a selected Vault.
+Users **deposit** USDT into a selected Vault (in the app this may appear as **Stake**).
 
 - Transactions are executed on-chain  
 - Funds are transferred via smart contracts  
@@ -41,7 +41,7 @@ Users deposit USDT into a selected Vault.
 
 ### Supported Networks
 
-Both deposits and withdrawals are supported on the following networks:
+Both **deposit** and **withdraw** (to wallet) are supported on the following networks:
 
 | Network | Status | Notes |
 |---|---|---|
@@ -78,9 +78,9 @@ The underlying strategy logic is not publicly disclosed.
 
 ---
 
-## Step 5 — Yield Generation
+## Step 5 — Profit generation
 
-Returns are generated based on:
+Returns and **profit** (in the app this may appear as **Rewards**) are driven by:
 
 - Market conditions  
 - Strategy performance  
@@ -89,23 +89,23 @@ Returns are generated based on:
 
 ---
 
-## Step 6 — Daily Distribution
+## Step 6 — Daily distribution
 
-Yield is calculated and distributed on a daily basis.
+**Profit** and loss are settled daily.
 
 - Reflected in the user's USD balance  
-- Based on Vault share, using a share-based system  
+- Based on **Shares** in the Vault (**Share**-based accounting)  
 - Processed via periodic settlement snapshots  
 
 ---
 
-## Step 7 — Withdraw or Redeem
+## Step 7 — Redeem or withdraw
 
 Users can manage their funds flexibly.
 
-- Withdraw available balance at any time  
-- Redeem Vault positions  
-- Early redemption may include penalties depending on Vault conditions  
+- **Redeem** to turn Vault **Shares** into USD balance  
+- **Withdraw** to send USD balance from the platform to your wallet  
+- **Redeeming** early may incur penalties depending on Vault conditions  
 
 ---
 
@@ -115,5 +115,5 @@ Users can manage their funds flexibly.
 - Performance depends on market conditions  
 - Smart contract risks exist  
 - Counterparty risks may apply depending on execution venues  
-- Early redemption conditions vary by Vault  
+- **Redeem** rules vary by Vault  
 

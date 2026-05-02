@@ -1,24 +1,24 @@
 ---
-title: "Redemption"
-description: "Redemption allows users to exit their Vault positions and convert their allocated capital into an available balance."
+title: "Redeem"
+description: "Redeem lets you exit a Vault position and convert your Shares into available USD balance (separate from Withdraw to your wallet)."
 icon: "rotate-left"
 ---
 
 ## Overview
 
-Users can redeem their Vault positions based on each Vault’s conditions.
+You can **redeem** your Vault position according to each Vault’s conditions.
 
-- Redemption converts Vault shares into USD balance  
+- **Redeeming** converts Vault **Shares** into USD balance  
 - Conditions vary depending on the Vault  
-- Early redemption may include penalties  
+- **Redeeming** early may incur penalties  
 
 ---
 
-## Redemption Flow
+## Redeem flow
 
 ```mermaid
 flowchart LR
-    A[User Request] --> B[Redemption Validation]
+    A[User Request] --> B[Redeem Validation]
     B --> C[Penalty Calculation]
     C --> D[Settlement Process]
     D --> E[USD Balance]
@@ -26,11 +26,11 @@ flowchart LR
 
 ---
 
-## Redemption Process
+## Redeem process
 
 ### Step 1 — Request
 
-Users initiate redemption from their portfolio.
+Users start redeeming from their portfolio.
 
 - Select Vault position  
 - Specify amount (partial or full)  
@@ -52,7 +52,7 @@ The system verifies eligibility.
 
 If applicable, penalties are calculated.
 
-- Early redemption fees  
+- Fees for **redeeming** early  
 - Strategy-related adjustments  
 - Liquidity-related costs  
 
@@ -63,32 +63,32 @@ If applicable, penalties are calculated.
 The final amount is settled and allocated.
 
 - Net value is calculated  
-- Shares are burned or adjusted  
+- **Shares** are burned or adjusted  
 - Resulting amount is added to USD balance  
 
 ---
 
-## Redemption Types
+## Full and partial redeem
 
-### Full Redemption
+### Full redeem
 
-- Exit entire Vault position  
-- All shares are converted  
-
----
-
-### Partial Redemption
-
-- Exit a portion of the position  
-- Remaining shares continue to participate  
+- Exit the entire Vault position  
+- All **Shares** are converted  
 
 ---
 
-## Lock-Up Conditions
+### Partial redeem
+
+- Exit part of the position  
+- Remaining **Shares** continue to participate  
+
+---
+
+## Lock-up conditions
 
 Some Vaults may enforce lock-up periods.
 
-- Funds cannot be redeemed during lock-up  
+- You cannot **redeem** during lock-up  
 - Early exit may be restricted or penalized  
 
 ---
@@ -105,9 +105,9 @@ Penalty structures vary by Vault.
 
 ---
 
-## Settlement Timing
+## Settlement timing
 
-Redemption may not be instantaneous.
+**Redeem** requests may not settle instantly.
 
 - Depends on Vault structure  
 - Strategy execution timing  
@@ -115,31 +115,31 @@ Redemption may not be instantaneous.
 
 ---
 
-## Important Considerations
+## Important considerations
 
-- Redemption conditions vary per Vault  
+- **Redeem** rules vary per Vault  
 - Early exit may reduce returns  
 - Final value depends on market conditions  
-- Partial redemption affects remaining exposure  
+- Partial **redeem** affects remaining exposure  
 
 ---
 
-## Relationship to Withdrawal
+## Relationship to Withdraw
 
-Redemption and withdrawal are separate processes:
+**Redeem** and **Withdraw** are different:
 
-- Redemption → converts Vault position into USD balance  
-- Withdrawal → transfers USD balance to user wallet  
+- **Redeem** → converts a Vault position into USD balance  
+- **Withdraw** → sends USD balance from the platform to your wallet  
 
 ---
 
 ## Summary
 
-Redemption enables users to:
+**Redeem** lets you:
 
 - Exit Vault positions  
 - Manage capital allocation  
 - Control exposure to strategies  
 
-All redemptions are subject to Vault-specific rules
+Every **redeem** is subject to Vault-specific rules
 and market conditions.

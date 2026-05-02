@@ -1,12 +1,12 @@
 ---
 title: "Vaults"
-description: "Vaults are the core investment shares within RondoSync, providing structured access to yield strategies through isolated capital allocation."
+description: "Vaults hold your capital as Shares (1口 each); this page explains parameters, Share Price, deposit, and redeem — separate from Withdraw to your wallet."
 icon: "vault"
 ---
 
 ## Overview
 
-Users allocate capital into Vaults to participate in structured yield strategies.
+Users **deposit** into Vaults and hold **Shares** to participate in structured strategies.
 
 - Each Vault operates independently  
 - Capital is deployed according to a predefined strategy  
@@ -37,13 +37,13 @@ Vaults do not share performance.
 
 ---
 
-### Share-Based System
+### Share-based system
 
-Vaults use a share-based accounting model.
+Vaults use **Share**-based accounting.
 
-- Deposits are converted into Vault shares  
-- Each share represents a share of the Vault  
-- Returns are reflected through share price changes or distributions  
+- A **deposit** is converted into **Shares**  
+- Each **Share** is one unit (1口) of the Vault  
+- Results are reflected through **Share Price** changes or distributions  
 
 ---
 
@@ -64,9 +64,9 @@ Each Vault defines its own parameters.
 
 ---
 
-### Redemption Conditions
+### Redeem conditions
 
-- Early redemption may be restricted  
+- **Redeeming** early may be restricted  
 - Penalties may apply depending on Vault rules  
 
 ---
@@ -94,13 +94,13 @@ Users should consider the following factors:
 ### Liquidity
 
 - Lock-up periods  
-- Redemption flexibility  
+- Flexibility to **redeem**  
 
 ---
 
 ### Expected Behavior
 
-- Stable vs variable yield  
+- Stable vs variable **profit**  
 - Strategy dependency on market conditions  
 
 ---
@@ -113,7 +113,7 @@ The following illustrates how capital flows through the system:
 flowchart LR
     A[User] --> B[Vault]
     B --> C[Strategy Execution]
-    C --> D[Yield / Loss]
+    C --> D[Profit / Loss]
     D --> E[User Balance]
 ```
 
@@ -131,19 +131,19 @@ flowchart LR
 | Asset | USDT |
 | Minimum Deposit | 500 USDT |
 | Lock-up Period | Flexible |
-| Redemption | Allowed anytime (conditions may apply) |
+| Redeem | Allowed anytime (conditions may apply) |
 | Performance Fee | 20% |
 | Execution / Operational Fees | Included in strategy performance |
 
 ---
 
-### Share-Based Structure
+### Share-based structure
 
-Vaults operate on a share-based accounting model.
+Vaults use **Share**-based accounting.
 
-- Users receive shares when depositing
-- The value of each share fluctuates over time
-- Total Vault performance is reflected in share price
+- Users receive **Shares** when they **deposit**
+- **Share Price** moves over time
+- Total Vault performance is reflected in **Share Price**
 
 ---
 
@@ -154,22 +154,22 @@ Vaults operate on a share-based accounting model.
 | Item | Value |
 |---|---|
 | Total Vault Assets | 100,000 USDT |
-| Total Shares Issued | 100,000 shares |
-| Share Price | 1.0000 USDT |
+| Total **Shares** issued | 100,000 |
+| **Share Price** | 1.0000 USDT |
 
 **User Deposit**
 
 | Item | Value |
 |---|---|
 | Deposit Amount | 1,000 USDT |
-| Shares Received | 1,000 shares |
+| **Shares** received | 1,000 |
 
-**After Yield Generation** (example: share price rises to 1.05 USDT)
+**After profit accrues** (example: **Share Price** rises to 1.05 USDT)
 
 | Item | Value |
 |---|---|
-| Shares Held | 1,000 shares |
-| Share Price | 1.0500 USDT |
+| **Shares** held | 1,000 |
+| **Share Price** | 1.0500 USDT |
 | Portfolio Value | 1,050 USDT |
 | Unrealized Gain | +50 USDT |
 
@@ -178,10 +178,10 @@ Vaults operate on a share-based accounting model.
 ### Key Insight
 
 <Info>
-  - Share price changes over time based on Vault performance
-  - Users do not earn a fixed yield
-  - Returns are based on **share price appreciation**
-  - Negative performance may also occur, reducing share price
+  - **Share Price** changes over time based on Vault performance
+  - Users do not earn a fixed rate of **profit**
+  - Returns are based on **Share Price** appreciation
+  - Negative performance may also occur, reducing **Share Price**
 </Info>
 
 ---
@@ -198,7 +198,7 @@ Vaults operate on a share-based accounting model.
 
 ## Summary
 
-Vaults provide structured access to yield strategies through:
+Vaults provide structured access to strategies through:
 
 - Segmented capital allocation  
 - Strategy-specific execution  
