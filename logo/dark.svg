@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<svg id="_レイヤー_1" data-name="レイヤー 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 142.6 27.18">
+<svg id="logo_layer_1" data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 142.6 27.18">
   <defs>
     <style>
       .cls-1 {
@@ -7,27 +7,27 @@
       }
 
       .cls-2 {
-        fill: url(#_名称未設定グラデーション_2);
+        fill: url(#gradient_secondary);
       }
 
       .cls-3 {
-        fill: url(#_名称未設定グラデーション);
+        fill: url(#gradient_primary);
       }
 
       .cls-4 {
-        fill: url(#_名称未設定グラデーション_3);
+        fill: url(#gradient_tertiary);
       }
     </style>
-    <linearGradient id="_名称未設定グラデーション" data-name="名称未設定グラデーション" x1="17.09" y1="-442.02" x2="-1.36" y2="-425.18" gradientTransform="translate(0 -414.36) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="gradient_primary" data-name="Primary gradient" x1="17.09" y1="-442.02" x2="-1.36" y2="-425.18" gradientTransform="translate(0 -414.36) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#0071c6"/>
       <stop offset=".5" stop-color="#00c8fd"/>
       <stop offset="1" stop-color="#0acaff"/>
     </linearGradient>
-    <linearGradient id="_名称未設定グラデーション_2" data-name="名称未設定グラデーション 2" x1="21.59" y1="-416.11" x2="5.8" y2="-437.26" gradientTransform="translate(0 -414.36) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="gradient_secondary" data-name="Secondary gradient" x1="21.59" y1="-416.11" x2="5.8" y2="-437.26" gradientTransform="translate(0 -414.36) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#00e8fd"/>
       <stop offset="1" stop-color="#0071c6"/>
     </linearGradient>
-    <linearGradient id="_名称未設定グラデーション_3" data-name="名称未設定グラデーション 3" x1="19.06" y1="-420.03" x2="6.07" y2="-436.76" gradientTransform="translate(0 -414.36) scale(1 -1)" gradientUnits="userSpaceOnUse">
+    <linearGradient id="gradient_tertiary" data-name="Tertiary gradient" x1="19.06" y1="-420.03" x2="6.07" y2="-436.76" gradientTransform="translate(0 -414.36) scale(1 -1)" gradientUnits="userSpaceOnUse">
       <stop offset="0" stop-color="#00d2fc"/>
       <stop offset="1" stop-color="#0071c6"/>
     </linearGradient>
