@@ -67,8 +67,8 @@
   },
 
   "logo": {
-    "light": "/logo/rondosync-logo-light.svg",
-    "dark": "/logo/rondsync-logo-nav.svg"
+    "light": "/logo/rondosync-logo-nav-160-gray.svg",
+    "dark": "/logo/rondosync-logo-nav-160-white.svg"
   },
 
   "navbar": {
