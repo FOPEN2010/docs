@@ -68,7 +68,7 @@
 
   "logo": {
     "light": "/logo/rondsync-logo-gray.svg",
-    "dark": "/logo/RondoSync_logo_dark.svg"
+    "dark": "/logo/rondsync-logo-nav.svg"
   },
 
   "navbar": {
