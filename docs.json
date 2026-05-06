@@ -9,7 +9,11 @@
   },
   "seo": {
     "metatags": {
-      "og:image": "https://docs.rondosync.com/images/og-image.png"
+      "og:image": "https://docs.rondosync.com/images/og-image.png",
+      "og:image:width": "1200",
+      "og:image:height": "630",
+      "twitter:card": "summary_large_image",
+      "twitter:image": "https://docs.rondosync.com/images/og-image.png"
     }
   },
   "favicon": "/favicon.svg",
