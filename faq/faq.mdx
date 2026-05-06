@@ -1,6 +1,6 @@
 ---
 title: "FAQ"
-description: "Frequently asked questions about RondoSync, including usage, risks, and system behavior."
+description: "Frequently asked questions about RondoSync, including Vaults, Shares, Share Price, Rewards, Redeem, Withdraw, risks, and system behavior."
 icon: "circle-question"
 ---
 
@@ -8,69 +8,267 @@ icon: "circle-question"
 
 <AccordionGroup>
   <Accordion title="What is RondoSync?">
-    RondoSync is infrastructure that lets users **deposit** into Vaults,
-    hold **Shares**, and participate in structured strategies.
+    RondoSync is Web3 infrastructure that lets users **deposit** into Vaults, hold or record **Shares**, and participate in structured strategies.
 
-    Users earn **profit** (the app may show **Rewards**) and manage capital
-    through a transparent system.
+    Depending on the Vault structure, Vault performance may be reflected through:
+
+    - **Share Price** movements
+    - **Rewards** credited to **USD Balance**
+    - A combination of both
+
+    RondoSync does not guarantee profit, fixed returns, or capital preservation.
   </Accordion>
 
   <Accordion title="Do I need an account?">
-    No. RondoSync uses wallet-based authentication.
+    RondoSync uses wallet-based access.
 
     - Connect your wallet
-    - No email or password required
+    - No traditional email or password account may be required
+    - Your wallet address may act as your platform identity
+    - Certain actions may require wallet signatures
+
+    Users are responsible for securing their own wallets, private keys, seed phrases, devices, and transaction approvals.
   </Accordion>
 
   <Accordion title="What assets are supported?">
-    Currently, RondoSync supports stablecoin-based deposits (e.g. USDT).
+    RondoSync may support stablecoin-based deposits, such as USDT, depending on the Vault and network.
 
-    Supported assets may expand over time.
+    Supported assets may differ by:
+
+    - Vault
+    - Network
+    - Platform availability
+    - Operational status
+    - Applicable rules
+
+    Users should always review the specific Vault details before depositing.
+  </Accordion>
+
+  <Accordion title="What networks are supported?">
+    Network support may differ by asset, Vault, and platform feature.
+
+    For example, some networks may support **Deposit**, while others may support **Withdraw**, or may still be under development.
+
+    Users should always confirm:
+
+    - Correct network
+    - Correct asset
+    - Correct wallet address
+    - Vault-specific network support
+
+    Sending assets on the wrong network may result in permanent loss.
   </Accordion>
 </AccordionGroup>
 
 ---
 
-## Investment
+## Vaults and Shares
+
+<AccordionGroup>
+  <Accordion title="What is a Vault?">
+    A Vault is a structured strategy container with its own parameters and rules.
+
+    Each Vault may define its own:
+
+    - Strategy profile
+    - Supported assets
+    - Supported networks
+    - Minimum deposit amount
+    - Duration or lock-up period
+    - Fee structure
+    - Redeem conditions
+    - Reward treatment
+    - Accounting rules
+
+    Users should review each Vault before participating.
+  </Accordion>
+
+  <Accordion title="What are Shares?">
+    **Shares** represent a user’s participation in a specific Vault.
+
+    Shares may be used to determine:
+
+    - The user’s proportional participation in a Vault
+    - The estimated value of the user’s Vault position
+    - Redeem calculations
+    - Reward allocation, where applicable
+
+    Shares do not represent a fixed return or guaranteed profit.
+  </Accordion>
+
+  <Accordion title="What is Share Price?">
+    **Share Price** represents the value of one **Share** in a Vault.
+
+    Share Price may be used for:
+
+    - Calculating how many **Shares** a user receives when depositing
+    - Estimating the value of a user’s Vault position
+    - Calculating Redeem amounts when a user exits a Vault
+
+    **Share Price** may increase or decrease depending on Vault performance, fees, settlement results, liquidity, and other Vault-specific accounting rules.
+  </Accordion>
+
+  <Accordion title="Can Share Price go down?">
+    Yes.
+
+    **Share Price** may rise or fall depending on Vault performance and accounting rules.
+
+    If **Share Price** decreases, the estimated value of the user’s Vault position may also decrease.
+
+    Users may experience gains or losses when they redeem their Vault position.
+  </Accordion>
+
+  <Accordion title="Are all Vaults the same?">
+    No.
+
+    Each Vault may have different:
+
+    - Strategy exposure
+    - Risk profile
+    - Supported assets
+    - Minimum deposit amount
+    - Lock-up period
+    - Fees
+    - Redeem conditions
+    - Reward treatment
+    - Accounting rules
+
+    Users should not assume that all Vaults behave in the same way.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Performance and Rewards
 
 <AccordionGroup>
   <Accordion title="Are returns guaranteed?">
     No.
 
-    - Returns are not guaranteed
-    - Performance depends on market conditions and strategy execution
+    RondoSync does not guarantee:
 
-    All investments carry risk.
+    - Profit
+    - Rewards
+    - Fixed returns
+    - APY
+    - Capital preservation
+    - Successful performance of any Vault
+
+    Vault performance may be positive or negative, and users may lose part or all of their allocated capital.
   </Accordion>
 
-  <Accordion title="How is profit generated?">
-    **Profit** comes from structured strategies (market **yield** in the broad sense).
+  <Accordion title="How is performance generated?">
+    Vault performance may come from structured strategies.
+
+    Examples may include:
 
     - Market opportunities
     - Liquidity provisioning
     - Strategy execution
+    - Market-neutral approaches
+    - Other Vault-specific strategies
 
-    Results vary depending on performance.
+    Performance depends on market conditions, execution quality, liquidity, fees, operational factors, and Vault-specific rules.
+  </Accordion>
+
+  <Accordion title="What are Rewards?">
+    **Rewards** may refer to periodic amounts credited to the user’s **USD Balance**, depending on the Vault structure.
+
+    Rewards may be based on:
+
+    - Vault performance
+    - User **Shares**
+    - Settlement period
+    - Vault-specific distribution rules
+    - Applicable fees or adjustments
+
+    Rewards are not fixed or guaranteed.
+  </Accordion>
+
+  <Accordion title="Does every Vault pay Rewards?">
+    Not necessarily.
+
+    Depending on the Vault structure, performance may be reflected through:
+
+    - **Share Price** movements
+    - **Rewards** credited to **USD Balance**
+    - A combination of both
+
+    Some Vaults may primarily reflect performance through **Share Price**, while others may also credit periodic **Rewards** to **USD Balance**.
   </Accordion>
 
   <Accordion title="Can I lose money?">
     Yes.
 
-    - Negative performance is possible
-    - Market conditions may impact results
-    - Strategy risks apply
+    Users may lose money due to:
 
-    Users should invest responsibly.
+    - Negative Vault performance
+    - Decrease in **Share Price**
+    - Market volatility
+    - Strategy underperformance
+    - Fees or penalties
+    - Liquidity constraints
+    - Smart contract risk
+    - Counterparty or venue risk
+    - Operational or technical issues
+
+    Users should review all risk disclosures before participating.
   </Accordion>
 
   <Accordion title="How do I choose a Vault?">
-    Consider the following:
+    Users should consider:
 
     - Risk tolerance
+    - Vault strategy
     - Lock-up conditions
-    - Strategy characteristics
+    - Redeem conditions
+    - Fee structure
+    - Reward treatment
+    - Liquidity conditions
+    - Supported network and asset
+    - Possibility of negative performance
 
-    Each Vault has different parameters.
+    Each Vault has different parameters and risk characteristics.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Deposit / Stake
+
+<AccordionGroup>
+  <Accordion title="What does Deposit mean?">
+    **Deposit** refers to placing supported assets into a Vault.
+
+    In the app, this action may appear as **Stake**.
+
+    A deposit may:
+
+    - Be initiated from the user’s connected wallet
+    - Be executed through smart contracts
+    - Be recorded on-chain where applicable
+    - Be allocated to a specific Vault
+    - Be converted into **Shares** according to the applicable **Share Price** and Vault rules
+
+    Deposited funds become part of the selected Vault position.
+  </Accordion>
+
+  <Accordion title="Is Deposit the same as Withdraw?">
+    No.
+
+    **Deposit** enters a Vault.
+
+    **Withdraw** transfers available **USD Balance** from the platform to a connected wallet.
+
+    Active Vault **Shares** cannot be withdrawn directly. A user may need to **Redeem** first before an amount becomes available for **Withdraw**.
+  </Accordion>
+
+  <Accordion title="Do I need to sign transactions?">
+    Deposits may require wallet signatures.
+
+    Depending on the supported flow, a user may need to approve token spending and confirm the deposit transaction.
+
+    Users should carefully verify all transaction details before signing.
   </Accordion>
 </AccordionGroup>
 
@@ -79,37 +277,167 @@ icon: "circle-question"
 ## Redeem & Withdraw
 
 <AccordionGroup>
-  <Accordion title="What is the difference between redeem and withdraw?">
-    - **Redeem** → converts Vault **Shares** / position into USD balance on the platform
-    - **Withdraw** → sends USD balance from the platform to your wallet
+  <Accordion title="What is the difference between Redeem and Withdraw?">
+    **Redeem** and **Withdraw** are separate processes.
 
-    They are separate processes.
+    | Action | Meaning | Typical Result |
+    | --- | --- | --- |
+    | Redeem | Exit a Vault position according to Vault rules | Redeemed amount may be credited to **USD Balance** or another app-level balance |
+    | Withdraw | Transfer available app balance to a connected wallet | Supported asset is sent to the user’s wallet |
+
+    Redeem does not necessarily send funds directly to the user’s wallet.
   </Accordion>
 
-  <Accordion title="Can I withdraw anytime?">
-    You can withdraw available USD balance at any time.
+  <Accordion title="What is Redeem?">
+    **Redeem** refers to exiting all or part of a Vault position according to the applicable Vault rules.
 
-    However:
+    Redeem may be affected by:
 
-    - Processing time may vary
-    - Validation and approval may be required
+    - **Share Price**
+    - Number of **Shares** being redeemed
+    - Vault performance
+    - Fees
+    - Penalties
+    - Lock-up periods
+    - Liquidity conditions
+    - Settlement timing
+    - Security, compliance, or operational review
+
+    The resulting amount may be credited to **USD Balance** or another app-level balance, depending on the Vault and platform rules.
   </Accordion>
 
   <Accordion title="Can I redeem anytime?">
-    Depends on the Vault.
+    It depends on the Vault.
 
-    - Some Vaults have lock-up periods
-    - **Redeeming** early may include penalties
+    Some Vaults may have:
+
+    - Lock-up periods
+    - Minimum holding periods
+    - Redeem windows
+    - Early Redeem penalties
+    - Liquidity-dependent delays
+    - Manual or automated review
+
+    Users should review the specific Vault rules before depositing.
   </Accordion>
 
-  <Accordion title="How long does withdraw take?">
-    Processing time depends on:
+  <Accordion title="What is Withdraw?">
+    **Withdraw** refers to transferring available **USD Balance** from RondoSync to the user’s connected wallet.
 
-    - Network conditions
-    - Internal validation processes
+    Withdraw may be subject to:
+
+    - Available **USD Balance**
+    - Validation
+    - Approval
     - Security checks
+    - Compliance review
+    - Operational processing
+    - Network conditions
+    - Transaction limits
+    - Fees
 
-    Delays may occur during peak periods.
+    Active Vault **Shares** cannot be withdrawn directly.
+  </Accordion>
+
+  <Accordion title="Can I withdraw anytime?">
+    Users may request a **Withdraw** for available **USD Balance**.
+
+    However, Withdraw may be subject to:
+
+    - Validation
+    - Approval
+    - Security checks
+    - Compliance review
+    - Platform rules
+    - Liquidity availability
+    - Network conditions
+    - Transaction limits
+
+    Withdraw requests may be delayed, restricted, rejected, or require additional review.
+  </Accordion>
+
+  <Accordion title="How long does Withdraw take?">
+    Processing time may vary depending on:
+
+    - Network congestion
+    - Selected network
+    - Transaction confirmation time
+    - Internal validation
+    - Security checks
+    - Compliance review
+    - Operational approval
+    - Liquidity availability
+    - Wallet infrastructure availability
+
+    Processing times are not guaranteed.
+  </Accordion>
+
+  <Accordion title="Can a Withdraw request be rejected?">
+    Yes.
+
+    A Withdraw request may be rejected, delayed, or restricted if it fails validation, triggers risk controls, requires additional review, or violates platform rules.
+
+    Reasons may include:
+
+    - Insufficient available **USD Balance**
+    - Incorrect or unsupported network
+    - Suspicious wallet activity
+    - Compliance review
+    - Security concerns
+    - Transaction limits
+    - Operational issues
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## USD Balance
+
+<AccordionGroup>
+  <Accordion title="What is USD Balance?">
+    **USD Balance** is an in-app balance used to track amounts that may become available for Withdraw, subject to applicable conditions.
+
+    USD Balance may include:
+
+    - Vault Rewards
+    - Referral rewards
+    - Ambassador rewards
+    - Redeemed amounts
+    - Other credited amounts, depending on platform rules
+
+    USD Balance is separate from active Vault **Shares**.
+  </Accordion>
+
+  <Accordion title="Is USD Balance a bank deposit?">
+    No.
+
+    **USD Balance** is an internal platform accounting record.
+
+    It is not:
+
+    - A bank deposit
+    - An insured asset
+    - A guaranteed claim to a specific underlying asset
+    - A guarantee of immediate withdrawal
+
+    USD Balance may be subject to platform rules, security checks, compliance review, fees, limits, and operational processing.
+  </Accordion>
+
+  <Accordion title="Can USD Balance change?">
+    Yes.
+
+    USD Balance may change due to:
+
+    - Rewards credited
+    - Redeemed amounts credited
+    - Referral or Ambassador rewards
+    - Withdraw requests
+    - Fees
+    - Adjustments
+    - Restrictions or reviews
+    - Other platform rules
+
+    Users should review platform records and applicable policies.
   </Accordion>
 </AccordionGroup>
 
@@ -119,13 +447,34 @@ icon: "circle-question"
 
 <AccordionGroup>
   <Accordion title="Are there any fees?">
-    Yes, fees may include:
+    Yes. Fees may apply.
+
+    Fees may include:
 
     - Performance fees
-    - Costs related to **withdraw**
+    - Strategy-related fees
     - Network transaction fees
+    - Withdraw fees
+    - Early Redeem penalties
+    - Operational fees
+    - Other Vault-specific fees
 
-    Fee structures may vary by Vault.
+    Fee structures may vary by Vault, asset, network, and platform conditions.
+  </Accordion>
+
+  <Accordion title="Can fees reduce my returns?">
+    Yes.
+
+    Fees may reduce:
+
+    - Vault value
+    - **Share Price**
+    - Rewards
+    - Redeem amounts
+    - Withdraw amounts
+    - Overall user returns
+
+    Users should review the applicable Vault details and transaction information.
   </Accordion>
 </AccordionGroup>
 
@@ -135,31 +484,65 @@ icon: "circle-question"
 
 <AccordionGroup>
   <Accordion title="Is RondoSync safe?">
-    RondoSync is designed with multiple security layers:
+    RondoSync is designed with multiple security layers.
+
+    These may include:
 
     - Policy-based transaction controls
-    - Secure wallet infrastructure
+    - Controlled wallet infrastructure
+    - Destination address validation
+    - Approval workflows
     - Monitoring and anomaly detection
+    - Risk-based review
+    - Compliance checks where applicable
 
     However, no system is completely risk-free.
   </Accordion>
 
   <Accordion title="Who controls the funds?">
-    Funds are managed through a structured system:
+    Fund flow may involve multiple components.
 
-    - User deposits are routed via smart contracts
-    - Operational controls govern execution
-    - Policies restrict unauthorized movement
+    These may include:
+
+    - User wallet
+    - Smart contracts
+    - Vault-level accounting
+    - Operational infrastructure
+    - Policy-controlled transaction flows
+    - Execution venues or third-party systems
+
+    Users should review the Fund Flow, Security, and Risk pages to understand the structure.
   </Accordion>
 
   <Accordion title="What happens if something goes wrong?">
     Risks exist, including:
 
-    - Smart contract issues
-    - Counterparty failure
+    - Smart contract vulnerabilities
+    - Counterparty or venue failure
     - Market-related losses
+    - Operational or technical issues
+    - Security incidents
+    - Liquidity constraints
+    - Compliance or access restrictions
 
     Users should understand all risks before participating.
+  </Accordion>
+
+  <Accordion title="Can my account or wallet be restricted?">
+    RondoSync may apply compliance, security, or operational restrictions.
+
+    Restrictions may apply due to:
+
+    - Suspicious activity
+    - Wallet screening results
+    - Sanctions exposure
+    - Fraud indicators
+    - Prohibited use
+    - Compliance review
+    - Security concerns
+    - Platform policy violations
+
+    Restrictions may affect access, Redeem, Withdraw, or other platform activity.
   </Accordion>
 </AccordionGroup>
 
@@ -168,18 +551,87 @@ icon: "circle-question"
 ## Technical
 
 <AccordionGroup>
-  <Accordion title="Do I need to sign transactions?">
-    Yes.
+  <Accordion title="Are transactions on-chain?">
+    Deposits and certain interactions may be on-chain.
 
-    - Deposits require wallet signatures
-    - **Withdraw** does not require user signatures
+    Other processes may involve off-chain systems for:
+
+    - Strategy execution
+    - Settlement
+    - Internal accounting
+    - Risk controls
+    - Compliance review
+    - Operational processing
+
+    The exact flow may differ depending on the Vault, network, and platform setup.
   </Accordion>
 
-  <Accordion title="Are transactions on-chain?">
-    Deposits and certain interactions are on-chain.
+  <Accordion title="Are transactions reversible?">
+    Blockchain transactions are generally irreversible once executed.
 
-    Other processes may involve off-chain systems
-    for execution and settlement.
+    Users should carefully verify:
+
+    - Wallet address
+    - Network
+    - Asset
+    - Transaction amount
+    - Contract interaction
+    - Approval details
+
+    RondoSync may not be able to recover assets lost due to user error, wrong network selection, compromised wallets, or malicious third-party activity.
+  </Accordion>
+
+  <Accordion title="Why do some processes happen off-chain?">
+    Some processes may require off-chain systems for execution, accounting, monitoring, risk controls, or operational processing.
+
+    These may include:
+
+    - Strategy execution
+    - Settlement snapshots
+    - Vault accounting
+    - Rewards records
+    - USD Balance records
+    - Security checks
+    - Compliance review
+
+    Off-chain records may be used together with on-chain transaction data.
+  </Accordion>
+</AccordionGroup>
+
+---
+
+## Legal and Risk
+
+<AccordionGroup>
+  <Accordion title="Does RondoSync provide financial advice?">
+    No.
+
+    RondoSync does not provide financial, investment, legal, tax, or accounting advice.
+
+    Users are responsible for making their own decisions and consulting professional advisors where appropriate.
+  </Accordion>
+
+  <Accordion title="Where can I review the risks?">
+    Users should review:
+
+    - [Risk Overview](/security/risk)
+    - [Risk Disclosure](/legal/risk)
+    - [Terms of Use](/legal/terms)
+    - [KYC / AML Policy](/legal/kyc-aml)
+
+    Users should understand all risks before using the platform or participating in any Vault.
+  </Accordion>
+
+  <Accordion title="Where can I review legal policies?">
+    Legal summaries are available in the [Legal](/legal) section.
+
+    Official and legally binding versions are available on the RondoSync website:
+
+    - [Terms of Use](https://rondosync.com/legal/terms)
+    - [Privacy Policy](https://rondosync.com/legal/privacy)
+    - [Cookie Policy](https://rondosync.com/legal/cookie)
+    - [KYC / AML Policy](https://rondosync.com/legal/kyc-aml)
+    - [Risk Disclosure Statement](https://rondosync.com/legal/risk)
   </Accordion>
 </AccordionGroup>
 
@@ -188,7 +640,13 @@ icon: "circle-question"
 ## Final Notes
 
 - RondoSync does not guarantee returns
-- Users are responsible for their decisions
-- Always verify information before interacting
+- Profit is not fixed or guaranteed
+- Capital loss is possible
+- **Share Price** may increase or decrease
+- Rewards may vary by Vault
+- Redeem and Withdraw conditions may vary
+- Security, compliance, or operational checks may apply
+- Users are responsible for their own decisions
+- Users should always verify information before interacting
 
-For more details, refer to the [Risk Disclosure](/security/risk) and [Security](/security/security) sections.
+For more details, refer to the [Risk Overview](/security/risk), [Security](/security/security), and [Legal](/legal) sections.
