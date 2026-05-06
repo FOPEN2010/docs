@@ -1,33 +1,100 @@
 ---
 title: "Introduction"
-description: "RondoSync is Web3 infrastructure for routing capital across structured strategies with transparent execution, Share-based Vaults, profit distribution, redeem, and withdraw."
+description: "RondoSync is Web3 infrastructure for routing capital across structured strategies with Vault-based accounting, Shares, Share Price, Rewards, redeem, and withdraw."
 icon: "star"
 ---
 
 ## What is RondoSync?
 
-RondoSync is not a single strategy.
+RondoSync is Web3 infrastructure for structured strategy participation.
 
-It is a system that:
+RondoSync is not a single strategy. It is a system designed to support Vault-based capital allocation, controlled execution, Vault-level accounting, redeem processing, and withdraw flows.
 
-- Aggregates multiple return-seeking strategies  
-- Routes capital dynamically  
-- Applies controlled execution layers  
+Users may participate by depositing supported assets into Vaults and receiving or recording **Shares** according to the applicable Vault rules.
 
 ---
 
 ## Core Concept
 
-RondoSync is built on three principles:
+RondoSync is built around five core concepts.
 
-### 1. Structured Capital Allocation
+### 1. Vault-Based Capital Allocation
+
 Capital is organized into Vaults with defined parameters.
 
-### 2. Controlled Execution
-All capital flows through policy-controlled infrastructure.
+Each Vault may have its own:
 
-### 3. Transparent Profit distribution
-**Profit** and loss are calculated and reflected through a structured system (in the app, **Rewards** may label the same idea).
+- Strategy profile
+- Supported assets
+- Supported networks
+- Minimum deposit amount
+- Duration or lock-up conditions
+- Fee structure
+- Redeem conditions
+- Reward treatment
+- Accounting rules
+
+Users choose which Vault they want to participate in based on the available information and their own risk considerations.
+
+---
+
+### 2. Share-Based Participation
+
+Vaults use **Share**-based accounting.
+
+A user’s deposit may be converted into **Shares** according to the applicable **Share Price** and Vault rules.
+
+**Shares** may be used to determine:
+
+- The user’s participation in a Vault
+- The estimated value of the user’s Vault position
+- Redeem calculations
+- Reward allocation, where applicable
+
+**Shares** do not represent a fixed return or guaranteed profit.
+
+---
+
+### 3. Vault-Level Accounting
+
+Vault performance may be reflected through:
+
+- **Share Price** movements
+- **Rewards** credited to **USD Balance**
+- A combination of both, depending on the Vault structure
+
+Some Vaults may primarily reflect performance through **Share Price** changes. Other Vaults may also credit periodic **Rewards** to the user’s **USD Balance**.
+
+The accounting treatment, settlement timing, and reward logic may differ by Vault.
+
+---
+
+### 4. Controlled Execution
+
+Capital movement and strategy execution may be handled through controlled infrastructure.
+
+Controls may include:
+
+- Operational wallet infrastructure
+- Policy-based transaction rules
+- Whitelisted destination addresses
+- Transaction limits
+- Approval flows
+- Monitoring and anomaly detection
+- Security or compliance review where applicable
+
+These controls are designed to reduce operational risk and maintain structured execution.
+
+---
+
+### 5. Redeem and Withdraw
+
+RondoSync separates **Redeem** and **Withdraw**.
+
+- **Redeem** refers to exiting a Vault position according to Vault rules
+- **Withdraw** refers to transferring available **USD Balance** to a connected wallet
+
+A user may need to redeem Vault **Shares** before the redeemed amount becomes available for withdraw, depending on the Vault and platform rules.
 
 ---
 
@@ -35,10 +102,28 @@ All capital flows through policy-controlled infrastructure.
 
 This documentation explains:
 
-- How capital flows through the system  
-- How Vaults operate  
-- How **profit** is generated and distributed  
-- Risks and security considerations  
+- How RondoSync works
+- How Vaults operate
+- How **Shares** and **Share Price** may be used
+- How Vault performance may affect **Share Price**, **Rewards**, or both
+- How **USD Balance** may be used
+- How **Redeem** works
+- How **Withdraw** works
+- Security and operational controls
+- Risk and legal considerations
+
+---
+
+## Important Notes
+
+- RondoSync does not guarantee returns
+- Profit is not fixed or guaranteed
+- Capital loss is possible
+- **Share Price** may increase or decrease
+- Rewards may vary by Vault
+- Redeem and Withdraw conditions may vary
+- Security, compliance, or operational checks may apply
+- Users are responsible for reviewing Vault details, risks, and applicable terms before participating
 
 ---
 
