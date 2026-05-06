@@ -7,6 +7,11 @@
     "light": "#38E8FF",
     "dark": "#020617"
   },
+  "seo": {
+    "metatags": {
+      "og:image": "https://docs.rondosync.com/images/og-image.png"
+    }
+  },
   "favicon": "/favicon.svg",
 
   "appearance": {
